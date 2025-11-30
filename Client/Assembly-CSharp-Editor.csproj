@@ -42,6 +42,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
+    <Compile Include="Assets\QFramework\Toolkits\SupportOldQF\UIKitCreateService\Editor\UIKitCreateServiceView.cs" />
+    <None Include="Assets\QFramework\Toolkits\SupportOldQF\UIKitCreateService\Editor\packagekitconfig.json" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.45f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -326,6 +328,9 @@
     </Reference>
     <Reference Include="unityplastic">
       <HintPath>E:\MyFootballGame\Client\Library\PackageCache\com.unity.collab-proxy@2.5.2\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
+    </Reference>
+    <Reference Include="Markdig">
+      <HintPath>E:\MyFootballGame\Client\Assets\QFramework\Toolkits\_CoreKit\PackageKit\Markdown\Markdig.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>E:\MyFootballGame\Client\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
@@ -815,6 +820,38 @@
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{8441f412-22a4-275f-22e6-507969043f15}</Project>
       <Name>Assembly-CSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="SupportOldQF.csproj">
+      <Project>{7090abb2-9a1c-89da-8e50-8d4bfe3587bf}</Project>
+      <Name>SupportOldQF</Name>
+    </ProjectReference>
+    <ProjectReference Include="AudioKit.csproj">
+      <Project>{245ed3c6-9ac9-b500-da9c-0eb6ed0db58a}</Project>
+      <Name>AudioKit</Name>
+    </ProjectReference>
+    <ProjectReference Include="ResKit.csproj">
+      <Project>{49d29dfa-2fdb-7571-7996-37f7ffd341db}</Project>
+      <Name>ResKit</Name>
+    </ProjectReference>
+    <ProjectReference Include="QFramework.CoreKit.csproj">
+      <Project>{266cafdd-2b62-4b11-e78d-ce7d752c66da}</Project>
+      <Name>QFramework.CoreKit</Name>
+    </ProjectReference>
+    <ProjectReference Include="UIKit.csproj">
+      <Project>{2d29e7a8-f3a2-705d-6665-ae69a5d4b370}</Project>
+      <Name>UIKit</Name>
+    </ProjectReference>
+    <ProjectReference Include="UIKit.Editor.csproj">
+      <Project>{1a0fb665-9488-88fb-7d11-156bff689d38}</Project>
+      <Name>UIKit.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="QFramework.csproj">
+      <Project>{9d496bac-3052-3cb5-aebc-a11541081d52}</Project>
+      <Name>QFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="ResKit.Editor.csproj">
+      <Project>{7a614b9d-2884-f4f8-8db6-1b9d9db4966f}</Project>
+      <Name>ResKit.Editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
