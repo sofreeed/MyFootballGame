@@ -41,23 +41,23 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\QFramework\Toolkits\AudioKit\Scripts\Timer\Timer.cs" />
+    <Compile Include="Assets\QFramework\Toolkits\AudioKit\Scripts\AudioKit.cs" />
+    <Compile Include="Assets\QFramework\Toolkits\AudioKit\Scripts\FluentAPI\FluentSoundAPI.cs" />
+    <Compile Include="Assets\QFramework\Toolkits\AudioKit\Scripts\Timer\BinaryHeap.cs" />
+    <Compile Include="Assets\QFramework\Toolkits\AudioKit\Scripts\Timer\TimerManager.cs" />
+    <Compile Include="Assets\QFramework\Toolkits\AudioKit\Scripts\QFramework.BindableProperty.cs" />
+    <Compile Include="Assets\QFramework\Toolkits\AudioKit\Scripts\AudioKitArchitecture.cs" />
     <Compile Include="Assets\QFramework\Toolkits\AudioKit\Scripts\AudioKitSettings.cs" />
     <Compile Include="Assets\QFramework\Toolkits\AudioKit\Scripts\FluentAPI\IAudioKitOnFinish.cs" />
-    <Compile Include="Assets\QFramework\Toolkits\AudioKit\Scripts\Timer\Timer.cs" />
+    <Compile Include="Assets\QFramework\Toolkits\AudioKit\Scripts\Player\AudioPlayer.cs" />
     <Compile Include="Assets\QFramework\Toolkits\AudioKit\Scripts\FluentAPI\FluentMusicAPI.cs" />
     <Compile Include="Assets\QFramework\Toolkits\AudioKit\Scripts\FluentAPI\IAudioKitOnRelease.cs" />
-    <Compile Include="Assets\QFramework\Toolkits\AudioKit\Scripts\Player\AudioPlayer.cs" />
-    <Compile Include="Assets\QFramework\Toolkits\AudioKit\Scripts\FluentAPI\FluentSoundAPI.cs" />
-    <Compile Include="Assets\QFramework\Toolkits\AudioKit\Scripts\AudioKit.cs" />
     <Compile Include="Assets\QFramework\Toolkits\AudioKit\Scripts\Action\PlaySound.cs" />
     <Compile Include="Assets\QFramework\Toolkits\AudioKit\Scripts\AudioManager.cs" />
     <Compile Include="Assets\QFramework\Toolkits\AudioKit\Scripts\Timer\TimeItem.cs" />
-    <Compile Include="Assets\QFramework\Toolkits\AudioKit\Scripts\Timer\BinaryHeap.cs" />
-    <Compile Include="Assets\QFramework\Toolkits\AudioKit\Scripts\Timer\TimerManager.cs" />
     <Compile Include="Assets\QFramework\Toolkits\AudioKit\Scripts\Player\AudioSourceController.cs" />
     <Compile Include="Assets\QFramework\Toolkits\AudioKit\Scripts\Timer\IBinaryHeapElement.cs" />
-    <Compile Include="Assets\QFramework\Toolkits\AudioKit\Scripts\QFramework.BindableProperty.cs" />
-    <Compile Include="Assets\QFramework\Toolkits\AudioKit\Scripts\AudioKitArchitecture.cs" />
     <None Include="Assets\QFramework\Toolkits\AudioKit\Scripts\AudioKit.asmdef" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.45f2c1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
@@ -314,6 +314,9 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.45f2c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="Markdig">
+      <HintPath>E:\MyFootballGame\Client\Assets\QFramework\Toolkits\_CoreKit\PackageKit\Markdown\Markdig.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
       <HintPath>E:\MyFootballGame\Client\Library\PackageCache\com.unity.collab-proxy@2.5.2\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -337,9 +340,6 @@
     </Reference>
     <Reference Include="unityplastic">
       <HintPath>E:\MyFootballGame\Client\Library\PackageCache\com.unity.collab-proxy@2.5.2\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
-    </Reference>
-    <Reference Include="Markdig">
-      <HintPath>E:\MyFootballGame\Client\Assets\QFramework\Toolkits\_CoreKit\PackageKit\Markdown\Markdig.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.45f2c1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>

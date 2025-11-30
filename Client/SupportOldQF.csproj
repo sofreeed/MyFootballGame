@@ -41,8 +41,8 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\QFramework\Toolkits\SupportOldQF\Scripts\ResKitUIPanelTester.cs" />
     <Compile Include="Assets\QFramework\Toolkits\SupportOldQF\Scripts\UIKitWithResKitInit.cs" />
+    <Compile Include="Assets\QFramework\Toolkits\SupportOldQF\Scripts\ResKitUIPanelTester.cs" />
     <Compile Include="Assets\QFramework\Toolkits\SupportOldQF\Scripts\AudioKitWithResKitInit.cs" />
     <None Include="Assets\QFramework\Toolkits\SupportOldQF\Scripts\SupportOldQF.asmdef" />
     <Reference Include="UnityEngine">
@@ -300,6 +300,9 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.45f2c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="Markdig">
+      <HintPath>E:\MyFootballGame\Client\Assets\QFramework\Toolkits\_CoreKit\PackageKit\Markdown\Markdig.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
       <HintPath>E:\MyFootballGame\Client\Library\PackageCache\com.unity.collab-proxy@2.5.2\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -323,9 +326,6 @@
     </Reference>
     <Reference Include="unityplastic">
       <HintPath>E:\MyFootballGame\Client\Library\PackageCache\com.unity.collab-proxy@2.5.2\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
-    </Reference>
-    <Reference Include="Markdig">
-      <HintPath>E:\MyFootballGame\Client\Assets\QFramework\Toolkits\_CoreKit\PackageKit\Markdown\Markdig.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.45f2c1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>

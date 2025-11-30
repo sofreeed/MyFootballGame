@@ -42,16 +42,16 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\QFramework\Toolkits\UIKit\Editor\CodeGen\CodeGen\Templates\UIElementCodeTemplate.cs" />
-    <Compile Include="Assets\QFramework\Toolkits\UIKit\Editor\CodeGen\CodeGen\Util.cs" />
-    <Compile Include="Assets\QFramework\Toolkits\UIKit\Editor\CodeGen\CodeGen\Templates\UIPanelTemplate.cs" />
     <Compile Include="Assets\QFramework\Toolkits\UIKit\Editor\CodeGen\CodeGen\UISerializer.cs" />
+    <Compile Include="Assets\QFramework\Toolkits\UIKit\Editor\CodeGen\CodeGen\Data\ElementCodeData.cs" />
+    <Compile Include="Assets\QFramework\Toolkits\UIKit\Editor\CodeGen\CodeGen\Templates\UIPanelTemplate.cs" />
     <Compile Include="Assets\QFramework\Toolkits\UIKit\Editor\UIKitSetttingData.cs" />
-    <Compile Include="Assets\QFramework\Toolkits\UIKit\Editor\CodeGen\CodeGen\UICodeGenerator.cs" />
+    <Compile Include="Assets\QFramework\Toolkits\UIKit\Editor\CodeGen\CodeGen\Templates\UIPanelDesignerTemplate.cs" />
+    <Compile Include="Assets\QFramework\Toolkits\UIKit\Editor\CodeGen\CodeGen\Data\PanelCodeData.cs" />
+    <Compile Include="Assets\QFramework\Toolkits\UIKit\Editor\CodeGen\CodeGen\Util.cs" />
     <Compile Include="Assets\QFramework\Toolkits\UIKit\Editor\CodeGen\CodeGen\Templates\IBaseTemplate.cs" />
     <Compile Include="Assets\QFramework\Toolkits\UIKit\Editor\CodeGen\CodeGen\BindCollector.cs" />
-    <Compile Include="Assets\QFramework\Toolkits\UIKit\Editor\CodeGen\CodeGen\Templates\UIPanelDesignerTemplate.cs" />
-    <Compile Include="Assets\QFramework\Toolkits\UIKit\Editor\CodeGen\CodeGen\Data\ElementCodeData.cs" />
-    <Compile Include="Assets\QFramework\Toolkits\UIKit\Editor\CodeGen\CodeGen\Data\PanelCodeData.cs" />
+    <Compile Include="Assets\QFramework\Toolkits\UIKit\Editor\CodeGen\CodeGen\UICodeGenerator.cs" />
     <Compile Include="Assets\QFramework\Toolkits\UIKit\Editor\CodeGen\UIKitSettingView.cs" />
     <Compile Include="Assets\QFramework\Toolkits\UIKit\Editor\UIKitHierarchyMenu.cs" />
     <None Include="Assets\QFramework\Toolkits\UIKit\Editor\packagekitconfig.json" />
@@ -317,6 +317,9 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.45f2c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="Markdig">
+      <HintPath>E:\MyFootballGame\Client\Assets\QFramework\Toolkits\_CoreKit\PackageKit\Markdown\Markdig.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Plastic.Newtonsoft.Json">
       <HintPath>E:\MyFootballGame\Client\Library\PackageCache\com.unity.collab-proxy@2.5.2\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -340,9 +343,6 @@
     </Reference>
     <Reference Include="unityplastic">
       <HintPath>E:\MyFootballGame\Client\Library\PackageCache\com.unity.collab-proxy@2.5.2\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
-    </Reference>
-    <Reference Include="Markdig">
-      <HintPath>E:\MyFootballGame\Client\Assets\QFramework\Toolkits\_CoreKit\PackageKit\Markdown\Markdig.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>E:\MyFootballGame\Client\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
