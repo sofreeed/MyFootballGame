@@ -42,12 +42,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\QFramework\Toolkits\ResKit\Editor\ResKitAssetsMenu.cs" />
-    <Compile Include="Assets\QFramework\Toolkits\ResKit\Editor\HotFix\WindowsFile.cs" />
     <Compile Include="Assets\QFramework\Toolkits\ResKit\Editor\ResKitInfoGenerator.cs" />
-    <Compile Include="Assets\QFramework\Toolkits\ResKit\Editor\BuildScript.cs" />
     <Compile Include="Assets\QFramework\Toolkits\ResKit\Editor\ResKitEditorWindow.cs" />
-    <Compile Include="Assets\QFramework\Toolkits\ResKit\Editor\ResKitView.cs" />
     <Compile Include="Assets\QFramework\Toolkits\ResKit\Editor\HotFix\SaveVersion.cs" />
+    <Compile Include="Assets\QFramework\Toolkits\ResKit\Editor\HotFix\WindowsFile.cs" />
+    <Compile Include="Assets\QFramework\Toolkits\ResKit\Editor\BuildScript.cs" />
+    <Compile Include="Assets\QFramework\Toolkits\ResKit\Editor\ResKitView.cs" />
     <Compile Include="Assets\QFramework\Toolkits\ResKit\Editor\AssetBundleExporter.cs" />
     <Compile Include="Assets\QFramework\Toolkits\ResKit\Editor\Data\SubProjectData.cs" />
     <Compile Include="Assets\QFramework\Toolkits\ResKit\Editor\HotFix\BundleHotFix.cs" />

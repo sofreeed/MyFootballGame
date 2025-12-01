@@ -14,17 +14,20 @@ namespace cfg
 {
 public partial class Tables
 {
-    public demo.Tbitem Tbitem {get; }
+    public TbCurrency TbCurrency {get; }
+    public TbItem TbItem {get; }
 
     public Tables(System.Func<string, JSONNode> loader)
     {
-        Tbitem = new demo.Tbitem(loader("demo_tbitem"));
+        TbCurrency = new TbCurrency(loader("tbcurrency"));
+        TbItem = new TbItem(loader("tbitem"));
         ResolveRef();
     }
     
     private void ResolveRef()
     {
-        Tbitem.ResolveRef(this);
+        TbCurrency.ResolveRef(this);
+        TbItem.ResolveRef(this);
     }
 }
 

@@ -829,6 +829,10 @@
       <Project>{49d29dfa-2fdb-7571-7996-37f7ffd341db}</Project>
       <Name>ResKit</Name>
     </ProjectReference>
+    <ProjectReference Include="Luban.Runtime.csproj">
+      <Project>{318e8633-0719-9d21-9bf8-477c096e7275}</Project>
+      <Name>Luban.Runtime</Name>
+    </ProjectReference>
     <ProjectReference Include="UIKit.csproj">
       <Project>{2d29e7a8-f3a2-705d-6665-ae69a5d4b370}</Project>
       <Name>UIKit</Name>
@@ -852,10 +856,6 @@
     <ProjectReference Include="QFramework.csproj">
       <Project>{9d496bac-3052-3cb5-aebc-a11541081d52}</Project>
       <Name>QFramework</Name>
-    </ProjectReference>
-    <ProjectReference Include="Luban.Runtime.csproj">
-      <Project>{318e8633-0719-9d21-9bf8-477c096e7275}</Project>
-      <Name>Luban.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Luban.Editor.csproj">
       <Project>{1c53678d-596a-b136-1ac4-a6cd8d03eee8}</Project>

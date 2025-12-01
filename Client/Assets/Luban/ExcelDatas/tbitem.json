@@ -1,0 +1,154 @@
+[
+  {
+    "id": 200000101,
+    "desc": "道具-血药1级（测试用）",
+    "itemName": "低级生命药水（测试）",
+    "itemText": "生命药水可恢复生命1000点。",
+    "itemExtraText": "",
+    "enumItemQuality": 1
+  },
+  {
+    "id": 200000102,
+    "desc": "道具-血药2级（测试用）",
+    "itemName": "2级生命药水（测试）",
+    "itemText": "生命药水可恢复生命2000点。",
+    "itemExtraText": "",
+    "enumItemQuality": 1
+  },
+  {
+    "id": 200000103,
+    "desc": "道具-血药3级（测试用）",
+    "itemName": "3级生命药水（测试）",
+    "itemText": "生命药水可恢复生命4000点。",
+    "itemExtraText": "",
+    "enumItemQuality": 1
+  },
+  {
+    "id": 200000104,
+    "desc": "道具-血药4级（测试用）",
+    "itemName": "4级生命药水（测试）",
+    "itemText": "生命药水可恢复生命8000点。",
+    "itemExtraText": "",
+    "enumItemQuality": 1
+  },
+  {
+    "id": 200000105,
+    "desc": "道具-血药5级（测试用）",
+    "itemName": "5级生命药水（测试）",
+    "itemText": "生命药水可恢复生命16000点。",
+    "itemExtraText": "",
+    "enumItemQuality": 1
+  },
+  {
+    "id": 200000106,
+    "desc": "道具-血药1级（冷却秒）",
+    "itemName": "冷却秒药水（测试）",
+    "itemText": "5秒。",
+    "itemExtraText": "",
+    "enumItemQuality": 1
+  },
+  {
+    "id": 200000107,
+    "desc": "道具-血药2级（冷却分）",
+    "itemName": "冷却分药水（测试）",
+    "itemText": "20分钟。",
+    "itemExtraText": "",
+    "enumItemQuality": 1
+  },
+  {
+    "id": 200000108,
+    "desc": "道具-血药3级（冷却小时）",
+    "itemName": "冷却小时药水（测试）",
+    "itemText": "2小时。",
+    "itemExtraText": "",
+    "enumItemQuality": 1
+  },
+  {
+    "id": 200000109,
+    "desc": "道具-血药4级（冷却天）",
+    "itemName": "冷却天药水（测试）",
+    "itemText": "3天。",
+    "itemExtraText": "",
+    "enumItemQuality": 1
+  },
+  {
+    "id": 200000110,
+    "desc": "道具-血药1级（失效秒）",
+    "itemName": "失效秒药水（测试）",
+    "itemText": "5秒。",
+    "itemExtraText": "",
+    "enumItemQuality": 1
+  },
+  {
+    "id": 200000111,
+    "desc": "道具-血药2级（失效分）",
+    "itemName": "失效分药水（测试）",
+    "itemText": "20分钟。",
+    "itemExtraText": "",
+    "enumItemQuality": 2
+  },
+  {
+    "id": 200000112,
+    "desc": "道具-血药3级（失效小时）",
+    "itemName": "失效小时药水（测试）",
+    "itemText": "2小时。",
+    "itemExtraText": "",
+    "enumItemQuality": 2
+  },
+  {
+    "id": 200000113,
+    "desc": "道具-血药4级（失效天）",
+    "itemName": "失效天药水（测试）",
+    "itemText": "3天。",
+    "itemExtraText": "",
+    "enumItemQuality": 2
+  },
+  {
+    "id": 200000114,
+    "desc": "道具-血药1级（目标时间今天）",
+    "itemName": "目标时间秒药水（测试）",
+    "itemText": "23年1月13日-20：00。",
+    "itemExtraText": "",
+    "enumItemQuality": 2
+  },
+  {
+    "id": 200000115,
+    "desc": "道具-血药2级（目标时间明天）",
+    "itemName": "目标时间分药水（测试）",
+    "itemText": "23年1月14日-20：00。",
+    "itemExtraText": "",
+    "enumItemQuality": 2
+  },
+  {
+    "id": 200000116,
+    "desc": "道具-血药3级（目标时间一个月后）",
+    "itemName": "目标时间小时药水（测试）",
+    "itemText": "23年2月20日-20：00。",
+    "itemExtraText": "",
+    "enumItemQuality": 2
+  },
+  {
+    "id": 200000121,
+    "desc": "道具-立即恢复血药",
+    "itemName": "生命药水",
+    "itemText": "生命药水可恢复10000生命，使用冷却时间10秒。",
+    "itemExtraText": "",
+    "enumItemQuality": 2
+  },
+  {
+    "id": 200000141,
+    "desc": "道具-持续恢复血药",
+    "itemName": "治愈药水",
+    "itemText": "治愈药水可持续恢复生命，每3秒恢复400生命，持续15秒。",
+    "itemExtraText": "",
+    "enumItemQuality": 2
+  },
+  {
+    "id": 200000201,
+    "desc": "背包解锁道具",
+    "itemName": "扩充卷轴",
+    "itemText": "可用于扩充背包空间，还可解锁仓库格子。",
+    "itemExtraText": "",
+    "enumItemQuality": 2
+  }
+]

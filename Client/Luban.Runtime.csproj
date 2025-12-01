@@ -41,13 +41,13 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\3rd\luban_unity-main\Runtime\ByteBuf.cs" />
-    <Compile Include="Assets\3rd\luban_unity-main\Runtime\SimpleJSON\SimpleJSON.cs" />
     <Compile Include="Assets\3rd\luban_unity-main\Runtime\SimpleJSON\SimpleJSONBinary.cs" />
-    <Compile Include="Assets\3rd\luban_unity-main\Runtime\SimpleJSON\SimpleJSONUnity.cs" />
-    <Compile Include="Assets\3rd\luban_unity-main\Runtime\BeanBase.cs" />
-    <Compile Include="Assets\3rd\luban_unity-main\Runtime\SimpleJSON\SimpleJSONDotNetTypes.cs" />
     <Compile Include="Assets\3rd\luban_unity-main\Runtime\StringUtil.cs" />
+    <Compile Include="Assets\3rd\luban_unity-main\Runtime\BeanBase.cs" />
+    <Compile Include="Assets\3rd\luban_unity-main\Runtime\SimpleJSON\SimpleJSONUnity.cs" />
+    <Compile Include="Assets\3rd\luban_unity-main\Runtime\ByteBuf.cs" />
+    <Compile Include="Assets\3rd\luban_unity-main\Runtime\SimpleJSON\SimpleJSONDotNetTypes.cs" />
+    <Compile Include="Assets\3rd\luban_unity-main\Runtime\SimpleJSON\SimpleJSON.cs" />
     <None Include="Assets\3rd\luban_unity-main\Runtime\SimpleJSON\Changelog.txt" />
     <None Include="Assets\3rd\luban_unity-main\Runtime\Luban.Runtime.asmdef" />
     <Reference Include="UnityEngine">

@@ -42,21 +42,21 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\QFramework\Toolkits\AudioKit\Scripts\Timer\Timer.cs" />
-    <Compile Include="Assets\QFramework\Toolkits\AudioKit\Scripts\AudioKit.cs" />
     <Compile Include="Assets\QFramework\Toolkits\AudioKit\Scripts\FluentAPI\FluentSoundAPI.cs" />
-    <Compile Include="Assets\QFramework\Toolkits\AudioKit\Scripts\Timer\BinaryHeap.cs" />
     <Compile Include="Assets\QFramework\Toolkits\AudioKit\Scripts\Timer\TimerManager.cs" />
     <Compile Include="Assets\QFramework\Toolkits\AudioKit\Scripts\QFramework.BindableProperty.cs" />
     <Compile Include="Assets\QFramework\Toolkits\AudioKit\Scripts\AudioKitArchitecture.cs" />
-    <Compile Include="Assets\QFramework\Toolkits\AudioKit\Scripts\AudioKitSettings.cs" />
     <Compile Include="Assets\QFramework\Toolkits\AudioKit\Scripts\FluentAPI\IAudioKitOnFinish.cs" />
+    <Compile Include="Assets\QFramework\Toolkits\AudioKit\Scripts\FluentAPI\IAudioKitOnRelease.cs" />
+    <Compile Include="Assets\QFramework\Toolkits\AudioKit\Scripts\AudioManager.cs" />
+    <Compile Include="Assets\QFramework\Toolkits\AudioKit\Scripts\Player\AudioSourceController.cs" />
+    <Compile Include="Assets\QFramework\Toolkits\AudioKit\Scripts\AudioKit.cs" />
+    <Compile Include="Assets\QFramework\Toolkits\AudioKit\Scripts\Timer\BinaryHeap.cs" />
+    <Compile Include="Assets\QFramework\Toolkits\AudioKit\Scripts\AudioKitSettings.cs" />
     <Compile Include="Assets\QFramework\Toolkits\AudioKit\Scripts\Player\AudioPlayer.cs" />
     <Compile Include="Assets\QFramework\Toolkits\AudioKit\Scripts\FluentAPI\FluentMusicAPI.cs" />
-    <Compile Include="Assets\QFramework\Toolkits\AudioKit\Scripts\FluentAPI\IAudioKitOnRelease.cs" />
     <Compile Include="Assets\QFramework\Toolkits\AudioKit\Scripts\Action\PlaySound.cs" />
-    <Compile Include="Assets\QFramework\Toolkits\AudioKit\Scripts\AudioManager.cs" />
     <Compile Include="Assets\QFramework\Toolkits\AudioKit\Scripts\Timer\TimeItem.cs" />
-    <Compile Include="Assets\QFramework\Toolkits\AudioKit\Scripts\Player\AudioSourceController.cs" />
     <Compile Include="Assets\QFramework\Toolkits\AudioKit\Scripts\Timer\IBinaryHeapElement.cs" />
     <None Include="Assets\QFramework\Toolkits\AudioKit\Scripts\AudioKit.asmdef" />
     <Reference Include="UnityEngine">

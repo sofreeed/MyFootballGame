@@ -1,0 +1,29 @@
+[
+  {
+    "id": 10001,
+    "desc": "货币-金币",
+    "itemName": "金币",
+    "itemText": "非常珍贵的货币",
+    "itemExtraText": "",
+    "iconPic": "Currency/icon_currency_0002_moshi_da",
+    "iconPicUi": "Currency/icon_currency_0002_moshi_xiao"
+  },
+  {
+    "id": 10002,
+    "desc": "货币-银币",
+    "itemName": "银币",
+    "itemText": "一般珍贵的货币",
+    "itemExtraText": "",
+    "iconPic": "Currency/icon_currency_0003_moshiNew_da",
+    "iconPicUi": "Currency/icon_currency_0003_moshiNew_xiao"
+  },
+  {
+    "id": 10003,
+    "desc": "货币-铜币",
+    "itemName": "铜币",
+    "itemText": "最普通的货币",
+    "itemExtraText": "",
+    "iconPic": "Currency/icon_currency_0001_gold_da",
+    "iconPicUi": "Currency/icon_currency_0001_gold_xiao"
+  }
+]
